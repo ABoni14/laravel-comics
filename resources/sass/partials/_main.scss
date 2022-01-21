@@ -1,0 +1,40 @@
+main{
+  background-color: #1c1c1c;
+  padding: 60px 0 20px 0;
+  .ab-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    .product-box{
+      width: calc(100% / 6);
+      margin-bottom: 20px;
+      padding: 13px;
+      h3{
+        color: $white-text;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+      img{
+        width: 100%;
+        height: 160px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        object-position: top;
+      }
+    }
+  }
+  .ab-button-main{
+    text-align: center;
+    button{
+      background-color: $primary-color;
+      padding: 10px 60px;
+      border: none;
+      margin-top: 30px;
+      cursor: pointer;
+      a{
+        color: $white-text;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    }
+  }
+}

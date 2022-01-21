@@ -7,7 +7,6 @@
         <a class="nav-list" href="#">{{$item["text"]}}</a>
       </li>
       @endforeach
-      
     </ul>
   </div>
 </header>
