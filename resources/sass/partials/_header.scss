@@ -1,5 +1,22 @@
 header{
-  height: 100px;
+  height: 120px;
+  .top-header{
+    background-color: $primary-color;
+    height: 20px;
+    .container{
+      display: flex;
+      justify-content: end;
+      .contain-addict{
+        color: $white-text;
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        h4{
+          padding-left: 15px;
+        }
+      }
+    }
+  }
   .container{
     display: flex;
     justify-content: space-between;

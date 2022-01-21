@@ -14,7 +14,24 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 120px;
+}
+header .top-header {
+  background-color: #0282f9;
+  height: 20px;
+}
+header .top-header .container {
+  display: flex;
+  justify-content: end;
+}
+header .top-header .container .contain-addict {
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+header .top-header .container .contain-addict h4 {
+  padding-left: 15px;
 }
 header .container {
   display: flex;
