@@ -52,8 +52,34 @@ header .container .nav-list {
   line-height: 100px;
 }
 
+.jumbotron {
+  height: 530px;
+  background-image: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .ab-relative {
+  height: 530px;
+  position: relative;
+}
+.jumbotron .ab-relative .box-jumbotron {
+  background-color: #0282f9;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron .ab-relative .box-jumbotron h2 {
+  padding: 10px 25px;
+}
+
 footer {
-  background-image: url("../../../public/img/footer-bg.jpg");
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 footer .top-footer {
   height: 400px;

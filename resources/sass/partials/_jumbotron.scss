@@ -1,0 +1,23 @@
+.jumbotron{
+  height: 530px;
+  background-image: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .ab-relative{
+    height: 530px;
+    position: relative;
+    .box-jumbotron{
+      background-color: $primary-color;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      bottom: -25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h2{
+        padding: 10px 25px;
+      }
+    }
+  }
+}
