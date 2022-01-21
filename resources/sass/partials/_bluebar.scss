@@ -1,0 +1,28 @@
+.bluebar{
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 30px;
+  .container{
+    padding: 20px;
+    display: flex;
+  justify-content: space-between;
+
+    .box{
+      display: flex;
+      align-items: center;
+      img{
+        width: 50px;
+        margin-right: 5px;
+      }
+      h4{
+        font-size: 15px;
+        text-transform: uppercase;
+      }
+      .little-img{
+        width: 38px;
+      }
+    }
+  }
+}

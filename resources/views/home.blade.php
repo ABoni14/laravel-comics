@@ -4,7 +4,7 @@
     <div class="container ab-boxes">
         @foreach (config("card") as $box)
         <div class="product-box">
-            <img src="{{$box["img"]}}" alt="">
+            <img src="{{$box["img"]}}" alt="{{$box["title"]}}">
             <h3>{{$box["title"]}}</h3>
         </div> 
         @endforeach

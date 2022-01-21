@@ -5,9 +5,9 @@ main{
     display: flex;
     flex-wrap: wrap;
     .product-box{
-      width: calc(100% / 6);
-      margin-bottom: 20px;
-      padding: 13px;
+      width: calc(100% / 6 - 30px);
+      margin: 15px;
+      cursor: pointer;
       h3{
         color: $white-text;
         text-transform: uppercase;

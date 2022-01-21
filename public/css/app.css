@@ -85,9 +85,9 @@ main .ab-boxes {
   flex-wrap: wrap;
 }
 main .ab-boxes .product-box {
-  width: 16.6666666667%;
-  margin-bottom: 20px;
-  padding: 13px;
+  width: calc(16.6666666667% - 30px);
+  margin: 15px;
+  cursor: pointer;
 }
 main .ab-boxes .product-box h3 {
   color: white;
@@ -117,6 +117,34 @@ main .ab-button-main button a {
   color: white;
   text-decoration: none;
   font-weight: 700;
+}
+
+.bluebar {
+  background-color: #0282f9;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 30px;
+}
+.bluebar .container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.bluebar .container .box {
+  display: flex;
+  align-items: center;
+}
+.bluebar .container .box img {
+  width: 50px;
+  margin-right: 5px;
+}
+.bluebar .container .box h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.bluebar .container .box .little-img {
+  width: 38px;
 }
 
 footer {
