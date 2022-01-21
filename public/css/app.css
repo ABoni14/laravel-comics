@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@400;700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@400;700&family=Roboto:wght@500&display=swap);@import url(https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@400;700&family=Roboto:wght@500;700&display=swap);.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 100px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .header-nav li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+header .container .header-nav li:hover a {
+  color: #0282f9;
+}
+header .container .header-nav li:hover, header .container .header-nav li.active {
+  border-bottom: 4px solid #0282f9;
+  margin-bottom: -4px;
+}
+header .container .header-nav li.active a {
+  color: #0282f9;
+}
+header .container .header-nav li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  text-transform: uppercase;
+  line-height: 96px;
+  font-weight: 700;
+}
+header .container img {
+  width: 70px;
+  cursor: pointer;
+}
+header .container .nav-list {
+  line-height: 100px;
+}
+
+footer {
+  background-image: url("../../../public/img/footer-bg.jpg");
+}
+footer .top-footer {
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+footer .top-footer .list {
+  display: flex;
+}
+footer .top-footer .list .col-list {
+  margin-right: 30px;
+}
+footer .top-footer .list .col-list .footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+footer .top-footer .list .col-list .footer-list li {
+  padding: 2px 0;
+}
+footer .top-footer .list .col-list .footer-list li a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+footer .top-footer .list .col-list .footer-list li a:hover {
+  color: white;
+  border-bottom: none;
+}
+footer .top-footer h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.footer-img img {
+  width: 100%;
+}
+
+.bottom-footer {
+  height: 100px;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+}
+.bottom-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-footer .container button {
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.bottom-footer .container button:hover {
+  background-color: #0282f9;
+}
+.bottom-footer .container .footer-contain-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-footer .container .footer-contain-right h3 {
+  color: #0282f9;
+  margin-right: 10px;
+}
+.bottom-footer .container .footer-contain-right img {
+  width: 35px;
+  margin-left: 10px;
+}

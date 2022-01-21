@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = config("app");
+    return view('home', ["nav" => $data]);
 })->name('home');

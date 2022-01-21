@@ -1,0 +1,39 @@
+header{
+  height: 100px;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-nav li{
+      list-style: none;
+      display: inline-block;
+      cursor: pointer;
+      &:hover a{
+        color: $primary-color;
+      }
+      &:hover,
+      &.active{
+        border-bottom: 4px solid $primary-color;
+        margin-bottom: -4px;
+        }
+      &.active a{
+        color: $primary-color;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        text-transform: uppercase;
+        line-height: 96px;
+        font-weight: 700;
+      }
+    }
+    img{
+      width: 70px;
+      cursor: pointer;
+    }
+    .nav-list{
+      line-height: 100px;
+    }
+  }
+}
